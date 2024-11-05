@@ -1,0 +1,246 @@
+header{
+    background-image: linear-gradient(rgba(41, 72, 48, 0.5), rgba(34, 189, 17, 0.733)),
+                    url("../image/gray-elegant-background-with-copy-space.jpg"); 
+    
+    background-attachment: fixed;
+
+}
+
+
+/* NAV BAR ******* */
+nav{
+    display: flex;
+    justify-content: space-between;
+
+    ul{
+        display: flex;
+        
+        li{
+            margin-left: 10px;
+            margin-right: 10px;
+            list-style: none ;
+            color: #2C302E;
+        }
+    }
+
+}
+
+#premier{
+    color: #9AE19D;
+}
+
+#troisieme{
+    color: #9AE19D;
+}
+
+.home{
+    margin-left: 10px;
+    margin-top: 10px;
+
+    a{
+        color: #2C302E;
+    }
+}
+
+/*********** HEADER ************/
+.apparence{
+    display: flex;
+    justify-content: center;
+
+    .dev{
+        margin-right: 40px;
+        
+    }
+}
+.apparence{
+    span{
+        color: #9AE19D;
+    }
+}
+
+.presentation {
+            
+    p{
+        color: #9AE19D;
+    }
+} 
+
+#Youssef{
+    margin-top: 40px;
+    color: #9AE19D;
+}
+
+#Faras{
+    margin-top: -30px;
+    margin-left: 100px;
+
+}
+/******** BIO  *********/
+
+.bio{
+    margin: 40px;
+}
+
+
+/*********** RÉALISATION *****************/
+
+.Rea{
+
+    img{
+        height: 100px;
+    }
+}
+
+#result {
+    position: relative;
+    height: 300px;
+    
+    
+}
+
+/* Ajoutez les règles #keyframes ici */
+@keyframes wave {
+    from {
+        transform: scaleY(0);
+        background-color: rgba(41, 72, 48, 0.5);
+    }
+    to {
+        transform: scaleY(1);
+        background-color: rgba(34, 189, 17, 0.733);
+    }
+}
+
+/* L'effet de vague est réalisé avec un grand nombre de divs */
+/* Toutes ces divs partagent des propriétés communes */
+.box{
+    /* propriétés communes à toutes les box*/
+    width:calc(100% / 22 + 1px);
+    height: 100%;
+    background-color: rgb(28, 89, 168);
+    position: absolute;
+    left:0; 
+    bottom:0;      
+    /* Faut-il préciser des informations d'animation communes ici ??? */
+    /* Peut-être... */
+    /* ... ou peut-être pas :P */
+    transform: scaleY(0);
+    animation-name: wave;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    transform-origin: bottom;      
+
+    
+}
+#animated_box1{
+    left:0;           
+    /* Ajoutez les options d'animation de la div ici */
+    animation-delay: .0s;
+    
+}
+#animated_box2{
+    left:calc(100% / 22);            
+    /* Ajoutez les options d'animation de la div ici */
+    animation-delay: .1s;
+}            
+#animated_box3{
+    left:calc(2 * 100% / 22);         
+    /* Ajoutez les options d'animation de la div ici */
+    animation-delay: .2s;
+}            
+#animated_box4{
+    left:calc(3 * 100% / 22);            
+    /* Ajoutez les options d'animation de la div ici */
+    animation-delay: .3s;
+}            
+#animated_box5{
+    left:calc(4 * 100% / 22);            
+    /* Ajoutez les options d'animation de la div ici */
+    animation-delay: .4s;
+}            
+#animated_box6{
+    left:calc(5 * 100% / 22);            
+    /* Ajoutez les options d'animation de la div ici */
+    animation-delay: .5s;
+}    
+#animated_box7{
+    left:calc(6 * 100% / 22);            
+    /* Ajoutez les options d'animation de la div ici */
+    animation-delay: .6s;
+}            
+#animated_box8{
+    left:calc(7 * 100% / 22);            
+    /* Ajoutez les options d'animation de la div ici */
+    animation-delay: .7s;
+}            
+#animated_box9{
+    left:calc(8 * 100% / 22);            
+    /* Ajoutez les options d'animation de la div ici */
+    animation-delay: .8s;
+}            
+#animated_box10{
+    left:calc(9 * 100% / 22);            
+    /* Ajoutez les options d'animation de la div ici */
+    animation-delay: .9s;
+}            
+#animated_box11{
+    left:calc(10 * 100% / 22);            
+    /* Ajoutez les options d'animation de la div ici */
+    animation-delay: 1.0s;
+}                       
+#animated_box12{
+    left:calc(11 * 100% / 22);            
+    /* Ajoutez les options d'animation de la div ici */
+    animation-delay: 1.1s;
+}          
+#animated_box13{
+    left:calc(12 * 100% / 22);            
+    /* Ajoutez les options d'animation de la div ici */
+    animation-delay: 1.2s;
+}            
+#animated_box14{
+    left:calc(13 * 100% / 22);            
+    /* Ajoutez les options d'animation de la div ici */
+    animation-delay: 1.3s;
+}            
+#animated_box15{
+    left:calc(14 * 100% / 22);            
+    /* Ajoutez les options d'animation de la div ici */
+    animation-delay: 1.4s;
+}            
+#animated_box16{
+    left:calc(15 * 100% / 22);            
+    /* Ajoutez les options d'animation de la div ici */
+    animation-delay: 1.5s;
+}    
+#animated_box17{
+    left:calc(16 * 100% / 22);           
+    /* Ajoutez les options d'animation de la div ici */
+    animation-delay: 1.6s;
+}            
+#animated_box18{
+    left:calc(17 * 100% / 22);            
+    /* Ajoutez les options d'animation de la div ici */
+    animation-delay: 1.7s;
+}            
+#animated_box19{
+    left:calc(18 * 100% / 22);            
+    /* Ajoutez les options d'animation de la div ici */
+    animation-delay: 1.8s;
+}            
+#animated_box20{
+    left:calc(19 * 100% / 22);            
+    /* Ajoutez les options d'animation de la div ici */
+    animation-delay: 1.9s;
+}            
+#animated_box21{
+    left:calc(20 * 100% / 22);            
+    /* Ajoutez les options d'animation de la div ici */
+    animation-delay: 2.0s;
+}                       
+#animated_box22{
+    left:calc(21 * 100% / 22);            
+    /* Ajoutez les options d'animation de la div ici */
+    animation-delay: 2.1s;
+} 
