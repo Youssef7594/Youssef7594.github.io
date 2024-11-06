@@ -62,6 +62,7 @@ nav{
             
     p{
         color: #9AE19D;
+        margin-bottom: 40px;
     }
 } 
 
@@ -79,17 +80,49 @@ nav{
 
 .bio{
     margin: 40px;
+
+    h2{
+        color: #9AE19D;
+    }
 }
 
 
 /*********** RÉALISATION *****************/
+#r2r{
+    margin: 40px;
+
+    h2{
+        color: #9AE19D;
+    }
+}
 
 .Rea{
+    
 
     img{
         height: 100px;
+
     }
 }
+
+@keyframes zoom {
+    from {
+        transform: scale(1)
+        
+    }
+    to {
+        transform: scale(1.8)
+        
+    }
+}
+
+img:hover{
+    animation-name: zoom;
+    animation-duration: 2s;
+}
+
+
+/********* EFFET VAGUE ***********/
 
 #result {
     position: relative;
@@ -114,6 +147,7 @@ nav{
 /* Toutes ces divs partagent des propriétés communes */
 .box{
     /* propriétés communes à toutes les box*/
+    
     width:calc(100% / 22 + 1px);
     height: 100%;
     background-color: rgb(28, 89, 168);
@@ -244,3 +278,55 @@ nav{
     /* Ajoutez les options d'animation de la div ici */
     animation-delay: 2.1s;
 } 
+
+/******FORMULAIRE ***********/
+
+form{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.Nom [type="text"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 40px;
+    border:solid #9AE19D;;
+    border-radius: 90px;
+
+}
+
+.Tel [type="Tel"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 40px;
+    border:solid #9AE19D;;
+    border-radius: 90px;
+
+}
+
+.email [type="email"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 40px;
+    border:solid #9AE19D;;
+    border-radius: 90px;
+
+}
+
+.valider [type="submit"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    border:solid #9AE19D;;
+    border-radius: 90px;
+    
+
+}
+
+input::placeholder{
+    color: #474A48;
+    padding: 5px;
+}
