@@ -37,8 +37,13 @@ nav{
     margin-left: 10px;
     margin-top: 10px;
 
+   
+}
+
+.liste{
     a{
-        color: #2C302E;
+        text-decoration: none;
+        color:#2C302E ;
     }
 }
 
