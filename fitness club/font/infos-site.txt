@@ -1,0 +1,62 @@
+Lien vers l'énoncé : 
+https://formations.testeur.ovh/lapasserelle/m05-fitclub-enonce/
+
+----------------------------------------------------
+
+Police Googlefonts : Monserrat 400 700 et 900
+
+Hauteur de ligne :
+body : 1.6
+Titre h1 : 5rem
+
+Taille de la police :
+body : 16px
+liens "inscrire" : 15px
+Titre h1 : 80px
+Titre h2 : 20px
+Article gauche footer : 13px
+Fontes résaux sociaux : 18px
+Paragraphe formulaire : 13px
+Placeholder : 12px
+Titre h3 aside footer : 11px
+Paragraphe aside footer : 12px
+
+Classe container en desktop
+margin: 0 auto;
+max-width: 1060px;
+
+Classe container à partir de la tablette
+max-width: 100%;
+
+Couleurs :
+Dégradé sur image de fond fitness.jpg :  rgba(124, 40, 99, 0.4) rgba(0, 0, 0, 0.4)
+Fond "inscrire" : rgb(124, 40, 99)
+Fond "inscrire" survol : rgba(124, 40, 99, .7)
+Dégradé sur image de fond fitnessman.jpg : rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)
+Dégradé sur image de fond fitnesswoman.jpg : rgba(124, 40, 99, 0.7), rgba(124, 40, 99, 0.4)
+Ombre sous les deux articles d'ouverture : rgba(0, 0, 0, 0.4)
+Couleur bordure : rgb(226, 226, 226)
+Dégradé sur image de fond crossfit.jpg : rgba(124, 40, 99, 0.4), rgba(124, 40, 99, 0.2)
+fond gris : rgba(224, 224, 224, 0.4)
+fond footer : #000
+bordure sup footer : rgb(124, 40, 99)
+ombre sous formulaire  : rgba(0, 0, 0, 0.2)
+bordure champ formulaire : #000
+
+*----------------------*
+
+Liens à voir :
+Appliquer un dégradé sur une image :
+https://blog.lapasserelle.school/tutoriels/appliquer-filtre-couleur-image-background-css/
+
+Le site officiel de normalize.css
+https://necolas.github.io/normalize.css/
+
+Le site de vérification de compatibilité des balises HTML, propriétés CSS et fonction JS avec les navigateurs :
+https://caniuse.com/
+
+Petit jeu flex (flexbox defense) :
+http://www.flexboxdefense.com/
+
+Le viewport :
+https://www.alsacreations.com/article/lire/1490-comprendre-le-viewport-dans-le-web-mobile.html

@@ -1,0 +1,481 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+header{
+    background: linear-gradient(rgba(178, 15, 15, 0),rgba(79, 0, 51, 0.408) ,rgba(100, 0, 200, 0),rgba(121, 4, 82, 0.551)), /* Dégradé rouge vers bleu avec opacité */
+    url('../img/fitness.jpg');
+    background-position: 0px ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    min-height: 300px  ;
+    width: 100% ;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img{
+    margin: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+nav ul{
+    display: flex;
+    margin-right: 20px ;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#inscription{
+    margin-top: -1px;
+    background-color: purple;
+    
+    
+}
+nav ul li{
+    margin: 10px;
+    color: white;
+}
+
+.titre{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    margin: -200px 0 ;
+    text-align: center;
+
+    padding: 300px;
+}
+
+.titre h1{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+}
+
+.titre h1 span{
+    color: red;
+}
+
+.titre p{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.lesimage{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.cross-fit{
+    background: linear-gradient(rgba(30, 1, 1, 0.17),rgba(24, 1, 16, 0.517) ,rgba(0, 0, 0, 0.246),rgba(16, 0, 11, 0.551)), /* Dégradé rouge vers bleu avec opacité */
+    url(../img/fitnessman.jpg);
+    background-size:cover ;
+    min-height: 300px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cross-fit p{
+    text-align: center;
+    color: white;
+}
+
+.cross-fit h3{
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+}
+.full-body{
+    background: linear-gradient(rgba(178, 15, 173, 0.18),rgba(86, 1, 56, 0.406) ,rgba(89, 2, 105, 0.445),rgba(85, 2, 50, 0.694)), /* Dégradé rouge vers bleu avec opacité */
+    url(../img/fitnesswoman.jpg);
+    
+    background-size:cover ;
+    min-height: 300px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.full-body p{
+    text-align: center;
+    color: white;
+}
+
+.full-body h3{
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+}
+
+.objectif{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#choix{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    border-top: 1px solid #ccc;
+}
+
+.premiere-image{
+    
+    border-right: 1px solid #ccc;
+    text-align: center;
+    width: 25%;
+    margin-bottom: 5px;
+    padding-top: 20px ;
+}
+
+.premiere-image img{
+    height: 60px;
+    width: 60px;
+}
+
+.four-image img{
+    height: 60px;
+    width: 60px;
+}
+.four-image{
+    
+    
+    text-align: center;
+    width: 25%;
+    margin-bottom: 5px;
+    padding-top: 20px ;
+}
+
+#femme{
+    background: linear-gradient(to right, rgba(96, 4, 85, 0.25) 60% , rgb(6, 7, 7) 30% ), /* Dégradé rouge vers bleu avec opacité */
+    url(../img/crossfit.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    background-position: -20px;
+    
+    padding: 150px;
+}
+.rien{
+    
+    
+    width: 50%;
+}
+
+
+
+.letexte{
+    width: 50%;
+}
+.letexte h2{
+    color: white;
+    margin-bottom: 15px;
+    margin-left: -115px;
+}
+
+.letexte p{
+    color: white;
+    margin-bottom: 25px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.letexte a{
+    
+    background-color: purple;
+    padding: 5px;
+}
+
+#serie-1{
+    display: flex;
+    
+}
+
+.lepremier{
+    width: 33%;
+    background-color: #cccccc3e;
+    text-align: center;
+    
+}
+
+.lepremier img{
+    margin-top: 20px;
+    height: 60px;
+    width: 60px;
+}
+
+.lepremier h3{
+    margin-top: 20px;
+
+}
+
+.lepremier p{
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 5%;
+}
+.ledeuxieme{
+    width: 33%;
+    text-align: center;
+    
+}
+
+.ledeuxieme img{
+    margin-top: 20px;
+    height: 60px;
+    width: 60px;
+}
+
+.ledeuxieme h3{
+    margin-top: 20px;
+
+}
+.ledeuxieme p{
+    
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 5%;
+}
+
+.letroisieme{
+    width: 35%;
+    background-color: #cccccc3e;
+    text-align: center;
+}
+
+.letroisieme img{
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
+
+}
+
+.letroisieme h3{
+    margin-top: 20px;
+
+}
+
+
+.letroisieme p{
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 5%;
+}
+
+#serie-2{
+    display: flex;
+}
+
+.lequatre{
+    width: 33%;
+    
+    text-align: center;
+    
+}
+
+.lequatre img{
+    margin-top: 20px;
+    height: 60px;
+    width: 60px;
+}
+
+.lequatre h3{
+    margin-top: 20px;
+
+}
+
+.lequatre p{
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 5%;
+}
+.lecinque{
+    width: 33%;
+    text-align: center;
+    background-color: #cccccc3e;
+    
+}
+
+.lecinque img{
+    margin-top: 20px;
+    height: 60px;
+    width: 60px;
+}
+
+.lecinque h3{
+    margin-top: 20px;
+    
+}
+.lecinque p{
+    
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 5%;
+}
+
+.lesix{
+    width: 35%;
+    
+    text-align: center;
+}
+
+.lesix img{
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
+
+}
+
+.lesix h3{
+    margin-top: 20px;
+
+}
+
+
+.lesix p{
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 5%;
+}
+iframe{
+    height: 600px;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+footer{
+    border-top: 8px solid rgb(104, 1, 104);
+    background-color: black;
+}
+
+#bas{
+    display: flex;
+}
+
+
+.logoetc{
+    width: 35%;
+    text-align: end;
+    margin-right: 15px;
+}
+
+.logoetc img{
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.logoetc p{
+    margin: 10px;
+    color: white;
+}
+
+.logoetc i{
+    color: white;
+    margin-left: 10px;
+}
+
+.lesicone{
+    margin: 10px;
+    margin-bottom: 120px;
+}
+form{
+    margin-top: -100px;
+    margin-bottom: 40px;
+    width: 25%;
+    min-height: 500px;
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+
+}
+form h3{
+    margin-bottom: 15px;
+}
+
+form p{
+    margin-bottom: 15px;
+}
+.Nom{
+    margin-top: 20px;
+    
+}
+
+.Nom input{
+    width: 80%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.email{
+    margin-top: 20px;
+}
+
+.email input{
+    width: 80%;
+    border-top: none ;
+    border-right: none;
+    border-left: none;
+}
+
+.valider{
+    margin-top: 20px;
+    
+}
+
+[type="submit"]{
+    appearance: none;
+    background-color:  rgb(104, 1, 104);
+    color: white;
+    border: none;
+    min-height:  30px;
+}
+
+.adresse{
+    width: 35%;
+    margin-left: 15px;
+}
+
+/* .adresse i{
+    margin: 10px;
+    margin-top: 10px;
+} */
+
+.adresse p{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+.adresse i{
+    color: rgb(104, 1, 104);
+}

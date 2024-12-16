@@ -81,6 +81,19 @@ nav{
     margin-left: 100px;
 
 }
+
+
+.reseaux{
+    display: flex;
+    justify-content: end;
+    margin-right: 15px;
+    
+
+    a{
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+}
 /******** BIO  *********/
 
 .bio{
