@@ -334,6 +334,26 @@ form{
 
 }
 
+.text textarea{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 150px;
+    border:solid #9AE19D;
+    
+
+}
+
+.text textarea:focus,
+.email [type="email"]:focus,
+.Tel [type="Tel"]:focus,
+.Nom [type="text"]:focus{
+    border:solid gray;
+    outline: none;
+
+}
+
+
 .valider [type="submit"] {
     margin-top: 10px;
     margin-bottom: 10px;
