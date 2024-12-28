@@ -1,3 +1,7 @@
+h2{
+    font-size: 30px;
+}
+
 header{
     background-image: linear-gradient(rgba(41, 72, 48, 0.5), rgba(34, 189, 17, 0.733)),
                     url("../image/gray-elegant-background-with-copy-space.jpg"); 
@@ -11,18 +15,26 @@ header{
 nav{
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 100;
 
     ul{
         display: flex;
         
         li{
             margin-left: 10px;
-            margin-right: 10px;
+            margin-right: 25px;
             list-style: none ;
             color: #2C302E;
         }
     }
 
+}
+
+nav.scrolled {
+    background-color: gray; /* Changer la couleur de fond après le scroll */
 }
 
 #premier{
@@ -98,9 +110,13 @@ nav{
 
 .bio{
     margin: 40px;
+    margin-top: 50px;
+    padding: 20px;
 
     h2{
         color: #9AE19D;
+        margin-top: 70px;
+
     }
 }
 
@@ -108,9 +124,12 @@ nav{
 /*********** RÉALISATION *****************/
 #r2r{
     margin: 40px;
+    padding: 20px;
+    padding-top: 40px;
 
     h2{
         color: #9AE19D;
+        
     }
 }
 
