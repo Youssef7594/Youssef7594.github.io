@@ -17,8 +17,9 @@ nav{
     justify-content: space-between;
     position: fixed;
     width: 100%;
-    height: 50px;
+    height: 70px;
     z-index: 100;
+    font-size: 20px;
 
     ul{
         display: flex;
@@ -34,7 +35,7 @@ nav{
 }
 
 nav.scrolled {
-    background-color: gray; /* Changer la couleur de fond après le scroll */
+    background-color: #9ae19d5c; /* Changer la couleur de fond après le scroll */
 }
 
 #premier{
@@ -117,6 +118,24 @@ nav.scrolled {
         color: #9AE19D;
         margin-top: 70px;
 
+    }
+
+    a{
+        display: block;
+        text-align: center;
+        margin-top: 40px;
+        text-decoration: none;
+
+        p{
+            color: #2C302E;
+            
+        }
+        
+    }
+
+    p{
+        text-align: center;
+        
     }
 }
 
@@ -316,74 +335,58 @@ img:hover{
     animation-delay: 2.1s;
 } 
 
-/******FORMULAIRE ***********/
+       /******CONTACT***********/
 
-form{
+.Contact{
     margin-top: 80px;
     text-align: center;
+
+    .icones{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 60px;
+
+
+    }
+   
+
+    .icone{
+        padding: 50px;
+        background-color: #9ae19d5c;
+        display: flex;
+        flex-direction: column;
+
+
+        a{
+            text-decoration: none;
+            color: #2C302E ;
+
+        }
+
+        .texte-contact{
+            margin-top: 20px;
+
+        }
+        
+    }
+
 }
 
-.Nom [type="text"] {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 300px;
-    height: 40px;
-    border:solid #9AE19D;;
-    border-radius: 90px;
-
-}
-
-.Tel [type="Tel"] {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 300px;
-    height: 40px;
-    border:solid #9AE19D;;
-    border-radius: 90px;
-
-}
-
-.email [type="email"] {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 300px;
-    height: 40px;
-    border:solid #9AE19D;;
-    border-radius: 90px;
-
-}
-
-.text textarea{
-    margin-top: 20px;
-    margin-bottom: 10px;
-    width: 300px;
+footer{
+    text-align: center;
+    background-image: url(../image/gray-elegant-background-with-copy-space.jpg) ;
+    background-size: cover;
     height: 150px;
-    border:solid #9AE19D;
-    
+    margin-top: 100px;
+
+    .remerciement{
+        padding-top: 20px; ;
+
+        p{
+            font-size: 20px;
+        }
+    }
 
 }
 
-.text textarea:focus,
-.email [type="email"]:focus,
-.Tel [type="Tel"]:focus,
-.Nom [type="text"]:focus{
-    border:solid gray;
-    outline: none;
 
-}
-
-
-.valider [type="submit"] {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 100px;
-    border:solid #9AE19D;;
-    border-radius: 90px;
-    
-
-}
-
-input::placeholder{
-    color: #474A48;
-    padding: 5px;
-}
