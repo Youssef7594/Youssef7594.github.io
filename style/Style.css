@@ -4,7 +4,7 @@ h2{
 
 
 header{
-    background-image: linear-gradient(rgba(41, 72, 48, 0.5), rgba(34, 189, 17, 0.733)),
+    background-image: linear-gradient(rgba(204, 208, 205, 0.5), rgba(189, 37, 17, 0.733)),
                     url("../image/gray-elegant-background-with-copy-space.jpg"); 
     
     background-attachment: fixed;
@@ -36,15 +36,15 @@ nav{
 }
 
 nav.scrolled {
-    background-color: #9ae19d5c; /* Changer la couleur de fond après le scroll */
+    background-color: #e19f9a5c; /* Changer la couleur de fond après le scroll */
 }
 
 #premier{
-    color: #9AE19D;
+    color: #E0115F;
 }
 
 #troisieme{
-    color: #9AE19D;
+    color: #E0115F;
 }
 
 .home{
@@ -73,21 +73,21 @@ nav.scrolled {
 }
 .apparence{
     span{
-        color: #9AE19D;
+        color: #E0115F;
     }
 }
 
 .presentation {
             
     p{
-        color: #9AE19D;
+        color: #E0115F;
         margin-bottom: 40px;
     }
 } 
 
 #Youssef{
     margin-top: 40px;
-    color: #9AE19D;
+    color: #E0115F;
 }
 
 #Faras{
@@ -116,7 +116,7 @@ nav.scrolled {
     padding: 20px;
 
     h2{
-        color: #9AE19D;
+        color: #E0115F;
         margin-top: 70px;
 
     }
@@ -148,8 +148,12 @@ nav.scrolled {
     padding-top: 60px;
 
     h2{
-        color: #9AE19D;
+        color: #E0115F;
         
+    }
+
+    a{
+        margin-left: 20px;
     }
 }
 
@@ -194,11 +198,11 @@ img:hover{
 @keyframes wave {
     from {
         transform: scaleY(0);
-        background-color: rgba(41, 72, 48, 0.5);
+        background-color: rgba(109, 109, 109, 0.5);
     }
     to {
         transform: scaleY(1);
-        background-color: rgba(34, 189, 17, 0.733);
+        background-color: rgba(57, 39, 39, 0.733);
     }
 }
 
@@ -355,14 +359,14 @@ img:hover{
 
     .icone{
         padding: 50px;
-        background-color: #9ae19d5c;
+        background-color: rgba(57, 39, 39, 0.733);
         display: flex;
         flex-direction: column;
 
 
         a{
             text-decoration: none;
-            color: #2C302E ;
+            color: #edeaeb ;
 
         }
 
@@ -387,6 +391,7 @@ footer{
 
         p{
             font-size: 20px;
+            color: #E0115F;
         }
     }
 
