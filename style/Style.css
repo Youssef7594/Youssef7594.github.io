@@ -59,6 +59,10 @@ nav.scrolled {
         text-decoration: none;
         color:#2C302E ;
     }
+
+    a:hover{
+        background-color: #27262721;
+    }
 }
 
 /*********** HEADER ************/
@@ -159,12 +163,19 @@ nav.scrolled {
 
 .Rea{
 
-    
+    a{
+        text-decoration: none;
+        color: #E0115F;
+    }
 
     img{
         height: 100px;
         margin-right: 50px;
 
+    }
+
+    a:hover{
+        color: #070606c1 ;
     }
 }
 
@@ -342,7 +353,8 @@ img:hover{
     animation-delay: 2.1s;
 } 
 
-       /******CONTACT***********/
+
+    /******CONTACT***********/
 
 .Contact{
     margin-top: 80px;
@@ -375,6 +387,11 @@ img:hover{
 
         }
         
+    }
+
+    .icone:hover{
+        transform: scale(1.05);
+        transition: transform 1s ease;
     }
 
 }
