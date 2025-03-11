@@ -13,3 +13,16 @@ window.addEventListener('scroll', function() {
         navbar.classList.remove('scrolled');
     }
 });
+
+
+    /* bouton hamburger  */
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const hamburger = document.querySelector('.hamburger');
+        const liste = document.querySelector('.liste');
+    
+        hamburger.addEventListener('click', () => {
+            liste.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+    });
