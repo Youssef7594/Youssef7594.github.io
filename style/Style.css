@@ -570,14 +570,29 @@ footer{
     }
 
 
-    @media screen and (max-width: 830px){
+    @media screen and (max-width: 478px){
         #r2r{
 
             p{
                 font-size: 15px;
             }
+
+            .Rea{
+
+            display: flex;
+            flex-direction: column;
+
+            a{
+                font-size: 15px;
+                margin-top: 10px
+                ;
+
+            }
+        }
             
         }
+
+
         #icone-langage{
             i{
                 font-size: 50px;
