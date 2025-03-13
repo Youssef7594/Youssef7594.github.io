@@ -193,9 +193,9 @@ nav.scrolled {
 
 
 /*********** RÉALISATION *****************/
-#r2r{
-    margin: 40px;
-    padding: 20px;
+#rder{
+    margin-top: 50px;
+    
     padding-top: 60px;
     padding-bottom: 80px;
     text-align: center;
@@ -208,11 +208,14 @@ nav.scrolled {
 
     .Rea{
 
-        text-align: center;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
         
     
         a{
-            
+            padding-top: 20px;
             text-decoration: none;
             color: #E0115F;
             font-size: 20px;
@@ -223,6 +226,10 @@ nav.scrolled {
                 border: solid ;
                 text-align: center;
                 padding: 10px;
+            }
+
+            .card:hover{
+                background-color: #e0116095;
             }
 
             
@@ -236,7 +243,8 @@ nav.scrolled {
         }
     
         a:hover{
-            color: #070606c1 ;
+            color: #fffdfd ;
+            
         }
 
         
@@ -580,7 +588,7 @@ footer{
 
 
     @media screen and (max-width: 478px){
-        #r2r{
+        #rder{
 
             p{
                 font-size: 15px;
