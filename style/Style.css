@@ -198,6 +198,7 @@ nav.scrolled {
     padding: 20px;
     padding-top: 60px;
     padding-bottom: 80px;
+    text-align: center;
 
 
     h2{
@@ -205,34 +206,45 @@ nav.scrolled {
         
     }
 
-    a{
-        margin-left: 20px;
-    }
-    p{
-        font-size: 25px;
-    }
-}
+    .Rea{
 
-.Rea{
+        text-align: center;
+        
+    
+        a{
+            
+            text-decoration: none;
+            color: #E0115F;
+            font-size: 20px;
+            text-align: center;
+    
+            .card{
+                padding-bottom: 20px;
+                border: solid ;
+                text-align: center;
+                padding: 10px;
+            }
 
+            
+            
+        }
+    
+        img{
+            height: 100px;
+            
+    
+        }
+    
+        a:hover{
+            color: #070606c1 ;
+        }
+
+        
+    }
+    
+   
 
     
-
-    a{
-        text-decoration: none;
-        color: #E0115F;
-        font-size: 20px;
-    }
-
-    img{
-        height: 100px;
-        margin-right: 50px;
-
-    }
-
-    a:hover{
-        color: #070606c1 ;
-    }
 }
 
 @keyframes zoom {
@@ -241,15 +253,11 @@ nav.scrolled {
         
     }
     to {
-        transform: scale(1.8)
+        transform: scale(1.2)
         
     }
 }
 
-img:hover{
-    animation-name: zoom;
-    animation-duration: 2s;
-}
 
 
 /********* EFFET VAGUE ***********/
