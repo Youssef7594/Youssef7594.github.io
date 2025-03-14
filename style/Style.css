@@ -424,6 +424,35 @@ nav.scrolled {
 } 
 
 
+
+    /* Expérience et formation */
+    .experience-formation{
+
+        .experience{
+            text-align: center;
+
+            .paragraphe{
+                border: solid;
+                margin-top: 20px;
+                margin-right: 50px;
+                margin-left: 50px;
+            }
+        }
+
+
+        .formation{
+            text-align: center;
+
+            .paragraphe{
+                border: solid;
+                margin-top: 20px;
+                margin-right: 50px;
+                margin-left: 50px;
+            }
+        }
+    }
+
+
     /******CONTACT***********/
 
 .Contact{
