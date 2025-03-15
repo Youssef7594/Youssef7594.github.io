@@ -607,9 +607,9 @@ footer{
             }
         }
     }
+    
 
-
-    @media screen and (max-width: 680px){
+    @media screen and (max-width: 740px){
         .apparence{
             display: block;
             text-align: center;
