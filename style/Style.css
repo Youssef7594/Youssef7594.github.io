@@ -574,8 +574,24 @@ footer{
         }
     }
 
+    @media screen and (max-width: 840px){
+
+        .apparence{
+            
+        
+            .dev{
+                
+                padding-top: 20px;
+                
+            }
+        }
+
+    }
+
+
 
     @media screen and (max-width: 830px){
+
         #icone-langage{
             i{
                 font-size: 90px;
@@ -652,3 +668,23 @@ footer{
 
 
     }
+
+
+    @media screen and (max-width: 340px){
+        #rder{
+
+            
+
+            .Rea{
+
+            display: flex;
+            flex-direction: column;
+
+            img{
+                width: 70px;
+            }
+        }
+            
+        }
+    }
+
