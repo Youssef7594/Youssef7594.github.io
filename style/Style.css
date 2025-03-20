@@ -172,7 +172,7 @@ nav.scrolled {
     .langages{
         display: flex;
         justify-content: space-around;
-        padding-bottom: 50px;
+        padding-bottom: 90px;
         padding-top: 10px;
 
         .section-competence{
