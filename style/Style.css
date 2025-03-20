@@ -228,6 +228,7 @@ nav.scrolled {
                 border: solid ;
                 text-align: center;
                 padding: 10px;
+                background-color: rgba(128, 128, 128, 0.359);
             }
 
             .card:hover{
@@ -607,7 +608,7 @@ footer{
             }
         }
     }
-    
+
 
     @media screen and (max-width: 740px){
         .apparence{
