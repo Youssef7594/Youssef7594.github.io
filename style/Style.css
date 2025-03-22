@@ -36,17 +36,25 @@ nav{
 
 }
 
-nav.scrolled {
-    background-color: #e19f9a5c; /* Changer la couleur de fond après le scroll */
-}
+    nav.scrolled {
+        background-color: #e19f9a5c; /* Changer la couleur de fond après le scroll */
+    }
 
-#premier{
-    color: #E0115F;
-}
+    #premier{
+        color: #E0115F;
+    }
 
-#troisieme{
-    color: #E0115F;
-}
+    #deuxieme{
+        color: #2C302E;
+    }
+
+    #troisieme{
+        color: #E0115F;
+    }
+
+    #quatrieme{
+        color: #2C302E;
+    }
 
 .home{
     margin-left: 10px;
@@ -433,12 +441,20 @@ nav.scrolled {
             text-align: center;
             margin-top: 90px;
             margin-bottom: 80px;
+            
 
             .paragraphe{
-                border: solid;
+                border: solid #E0115F;
                 margin-top: 20px;
                 margin-right: 50px;
                 margin-left: 50px;
+                
+                
+            }
+
+            .paragraphe:hover{
+                transform: scale(1.05);
+                transition: transform 1s ease;
             }
         }
 
@@ -447,10 +463,16 @@ nav.scrolled {
             text-align: center;
 
             .paragraphe{
-                border: solid;
+                border: solid #E0115F;
                 margin-top: 20px;
                 margin-right: 50px;
                 margin-left: 50px;
+                
+            }
+
+            .paragraphe:hover{
+                transform: scale(1.05);
+                transition: transform 1s ease;
             }
         }
     }
@@ -494,6 +516,7 @@ nav.scrolled {
     .icone:hover{
         transform: scale(1.05);
         transition: transform 1s ease;
+        background-color: #E0115F;
     }
 
 }
