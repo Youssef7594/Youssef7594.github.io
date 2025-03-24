@@ -661,6 +661,13 @@ footer{
 
 
     @media screen and (max-width: 478px){
+        .bio{
+            text-align: center;
+
+            h2{
+                margin-top: 0px;
+            }
+        }
         #rder{
 
             p{
@@ -682,6 +689,28 @@ footer{
             
         }
 
+        #rder{
+
+            
+
+            .Rea{
+
+            display: flex;
+            flex-direction: column;
+
+            img{
+                width: 90px;
+            }
+
+            .card-body{
+                p{
+                    font-size: 10px;
+                }
+            }
+        }
+            
+        }
+
 
         #icone-langage{
             i{
@@ -695,14 +724,7 @@ footer{
 
 
     @media screen and (max-width: 340px){
-        .langages{
-            display: block;
-
-            .section-competence{
-                
-                
-            }
-        }
+        
         #rder{
 
             
