@@ -292,11 +292,11 @@ nav{
 @keyframes wave {
     from {
         transform: scaleY(0);
-        background-color: rgba(109, 109, 109, 0.5);
+        background-color: #E0115F;
     }
     to {
         transform: scaleY(1);
-        background-color: rgba(57, 39, 39, 0.733);
+        background-color: #ffffff;
     }
 }
 
